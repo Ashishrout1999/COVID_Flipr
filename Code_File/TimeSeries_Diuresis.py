@@ -6,7 +6,7 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 def parser(x):
 	return datetime.strptime('190'+x, '%Y-%m')
 
-DU_data = pd.read_excel('E:/6th_Semester/ML/Flipr/Trying/Train_dataset(1).xlsx', 'Diuresis_TS', date_parser=parser)
+DU_data = pd.read_excel('../Dataset/Train_dataset(1).xlsx', 'Diuresis_TS', date_parser=parser)
 
 I = DU_data.iloc[8:15,10:10725]
 
