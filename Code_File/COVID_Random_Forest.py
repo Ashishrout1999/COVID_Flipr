@@ -6,9 +6,9 @@ import numpy as np
 
 #Fetching the training dataset
 import pandas as pd
-train_data = pd.read_excel('E:/6th_Semester/ML/Flipr/Trying/Train_dataset(1).xlsx', 'Train_dataset')
-test_data = pd.read_excel('E:/6th_Semester/ML/Flipr/Trying/Test_dataset_1.xlsx')
-test_27March = pd.read_excel('E:/6th_Semester/ML/Flipr/Trying/Train_dataset(1).xlsx', 'Train_27March')
+train_data = pd.read_excel('../Dataset/Train_dataset(1).xlsx', 'Train_dataset')
+test_data = pd.read_excel('../Dataset/Test_dataset_1.xlsx')
+test_27March = pd.read_excel('../Dataset/Train_dataset(1).xlsx', 'Train_27March')
 
 #Checking for missing values
 #print(train_data.isnull().sum())
